@@ -5,91 +5,91 @@ It covers ingestion, transformation, modeling, and storytelling through dashboar
 
 🔹 Project Summary
 
-Built a Medallion Architecture (Bronze → Silver → Gold).
+* Built a Medallion Architecture (Bronze → Silver → Gold).
 
-Used MySQL for schema design, parsing, and incremental logic.
+* Used MySQL for schema design, parsing, and incremental logic.
 
-Used Fabric Notebooks (PySpark) for data cleansing, transformation, enrichment, and modeling.
+* Used Fabric Notebooks (PySpark) for data cleansing, transformation, enrichment, and modeling.
 
-Created a Gold semantic model in Fabric.
+* Created a Gold semantic model in Fabric.
 
-Delivered a 3-page executive dashboard in Power BI with drill-through, tooltips, KPIs, and trend analysis.
+* Delivered a 3-page executive dashboard in Power BI with drill-through, tooltips, KPIs, and trend analysis.
 
 🛠️ Tech Stack
 
 
-SQL (MySQL) – schema, views, incremental stored procedure
+* SQL (MySQL) – schema, views, incremental stored procedure
 
 
-Microsoft Fabric – Lakehouse, Pipelines, Notebooks
+* Microsoft Fabric – Lakehouse, Pipelines, Notebooks
 
 
-PySpark – data cleansing & transformations
+* PySpark – data cleansing & transformations
 
 
-Power BI – semantic model, DAX, dashboard design
+* Power BI – semantic model, DAX, dashboard design
 
 
-Data modeling – Fact/Dimension schema
+* Data modeling – Fact/Dimension schema
 
 
 
 📂 What’s Included in This Repo
 
 
-README documentation (full architecture + explanations)
+* README documentation (full architecture + explanations)
 
 
-Dashboard screenshots (Executive, Product, Region)
+* Dashboard screenshots (Executive, Product, Region)
 
 
-SQL scripts (schema, view, incremental stored procedure)
+* SQL scripts (schema, view, incremental stored procedure)
 
 
-Data validation examples
+* Data validation examples
 
 
-End-to-end pipeline explanation
+* End-to-end pipeline explanation
 
 
-Medallion model breakdown (Bronze, Silver, Gold)
+* Medallion model breakdown (Bronze, Silver, Gold)
 
 
-Power BI insights summary
+* Power BI insights summary
 
 
 
 🧱 Data Engineering Highlights
 
 
-Built MySQL view to parse raw CSV fields into typed columns
+* Built MySQL view to parse raw CSV fields into typed columns
 
 
-Created an incremental stored procedure to fetch new rows only
+* Created an incremental stored procedure to fetch new rows only
 
 
-Implemented Bronze → Silver → Gold transformations
+* Implemented Bronze → Silver → Gold transformations
 
 
-Added date breakdowns (OrderDate, Month, Revenue, etc.)
+* Added date breakdowns (OrderDate, Month, Revenue, etc.)
 
 
-Cleaned duplicates, enforced schema, standardized values
+* Cleaned duplicates, enforced schema, standardized values
 
 
 Built dimensional model:
 
 
-factSales
+* factSales
 
 
-dimProduct
+* dimProduct
 
 
-dimGeo
+* dimGeo
 
 
-dimDate
+* dimDate
 
 
 
@@ -99,62 +99,62 @@ dimDate
 Page 1: Executive Overview
 
 
-KPI cards
+* KPI cards
 
 
-Monthly revenue trend
+* Monthly revenue trend
 
 
-Top products & states
+* Top products & states
 
 
-Matrix with bar-in-matrix for quick scanning
+* Matrix with bar-in-matrix for quick scanning
 
 
 Page 2: Product Details (Drill-Through)
 
 
-Revenue trend
+* Revenue trend
 
 
-Revenue share gauge
+* Revenue share gauge
 
 
-City/state matrix
+* City/state matrix
 
 
 Page 3: Region Details (Drill-Through)
 
 
-State-level drill down
+* State-level drill down
 
 
-Product performance
+* Product performance
 
 
-City matrix
+* City matrix
 
 
 
 ✔️ Skills Demonstrated
 
 
-Data modeling & transformation
+* Data modeling & transformation
 
 
-SQL engineering (views, procedures, incremental logic)
+* SQL engineering (views, procedures, incremental logic)
 
 
-Fabric notebooks & PySpark
+* Fabric notebooks & PySpark
 
 
-Analytics engineering (Gold semantic model)
+* Analytics engineering (Gold semantic model)
 
 
-Power BI storytelling
+* Power BI storytelling
 
 
-Data validation & quality checks
+* Data validation & quality checks
 
 
 
